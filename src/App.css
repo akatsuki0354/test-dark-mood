@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+
+.nameofschool{
+  display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@media screen and (min-width: 768px) {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .nameofschool{
+    width: 100%;
+    height: auto;
+    /* display flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+  
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .nameofschool .textofschool{
+    margin-top: 40px;
+    color: #1453a7;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nameofschool .textofschool h2{
+    height: 10px;
+  }
+  
+  .nameofschool .logo{
+    width: 200px;
   }
 }
